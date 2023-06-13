@@ -41,8 +41,7 @@ date_de_naissance, formation_de_base, ville_d_origine)
 // Fermer la connexion à la base de données
 
 if(isset($_POST['delete_apprenant']))
-{
-    $apprenant_id = mysqli_real_escape_string($conn, $_POST['delete_apprenant']);
+{    $apprenant_id = mysqli_real_escape_string($conn, $_POST['delete_apprenant']);
 
     $query = "DELETE FROM apprenant WHERE id='$apprenant_id' ";
     $query_run = mysqli_query($conn, $query);

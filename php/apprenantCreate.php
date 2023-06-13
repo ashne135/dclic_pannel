@@ -31,7 +31,7 @@ require_once '../config/dbconect.php';
                         </h4>
                     </div>
                     <div class="card-body">
-                        <form action="../php/code.php" method="POST">
+                        <form action="../php/con de.php" method="POST">
 
                             <div class="mb-3">
                                 <label> Nom</label>
